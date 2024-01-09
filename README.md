@@ -1,22 +1,21 @@
 # nvim-lazy-Full-on-amazing-IDE-
 I wrote a simple script that copy and downloads the necessary files to configure your Nvim to an full on Ide .
 
-AFTER THE SCRIPT HAS DONE ITS JOB NAVIGATE TO ~/.config/nvim/lua/alt/packer.lua :PackerSync or :PackerInstall
+AFTER THE SCRIPT HAS DONE ITS JOB NAVIGATE TO ~/.config/nvim/lua/config/init.lua :Lazy
 
 WHAT ARE YOU GETTING OUT OF THIS BASH SCRIPT ?
 
-You will get clang,node-js and ripgrep packages downloaded and a Packer Aur install
+You will get clang,node-js and ripgrep packages downloaded and a Lazy plugin manager 
 
 LSP CONFIGURATRION?
 
-This is setting up c,c++ environment but if you dont want it after the installion go to ~/.config/nvim/after/plugin/Lsp.lua
+This is setting up c,c++ environment but if you dont want it after the installion go to ~/.config/nvim/lua/plugin/lspconfig.lua
 
 :Mason
 
 and search for desired Lsp
 
-I highly encourage you to read the keybindings ~/.config/nvim/lua/alt/rempa.lua to get the basic keybindings
 
-You can even Navigate to ~/.config/nvim/after/plugin/Lsp.lua To get LSP keybindings which are at very bottom.
+
 
 press F12 from anywhere to quickly look at keybindings.

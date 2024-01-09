@@ -1,7 +1,7 @@
 # nvim-lazy-Full-on-amazing-IDE-
 
 THANK YOU FOR TYPECRAFT FOR AMAZING ALPHA PLUGIN CONFIG . 
-LINK TO HIS YOUTUBE CHANNEL : 
+LINK TO HIS YOUTUBE CHANNEL : https://www.youtube.com/@typecraft_dev
 
 
 

@@ -1,0 +1,47 @@
+        HARPOON                      TELESCOPE                                       KEEP IT CENTERED          
+
+LEADER + a - APPENDING            LEADER+ff - FIND FILES IN CURRENT DIRECTORY               J
+
+  CTRL + e - DISPLAY LIST         LEADER+fr - FIND RECENT FILES                           CTRL + d  
+
+  CTRL + h - SELECT 1             LEADER+fs - FIND STRING IN CURRENT DIRECTORY            CTRL + u
+
+  CTRL + t - SELECT 2             LEADER+fc - FIND STRING UNDER CURSOR                      n
+
+  CTRL + n - SELECT 3             LEADER+fg - FIND GIT FILES                                N
+
+  CTRL + s - SELECT 4             LEADER+fw - SEARCH WORD
+
+  CTRL+SHIFT+P - PREVIOUS         LEADER+fd - DIAGNOSTIC
+
+  CTRL+SHIFT+N - NEXT
+
+
+
+	      LSP                                 ADDITIONAL KEYMAPS
+
+gR - SHOW DEFINATION                     LEADER+pv - OPEN EX EXPLORER
+
+gD - GO TO DECLARATION                   SHIFT + j - MOVE CODE DOWN
+
+gd - SHOW LSP DEFINATION                 SHIFT + k - MOVE CODE UP
+
+gi - SHOW LSP IMPLEMANTATIONS            LEADER + p - PASTE
+
+K - HOVER                                LEADER + Y - COPY ONLY TO VIM
+
+gt - SHOW LSP TYPE DEFINATION            LEADER + y - COPY TO CLIPBOARD
+
+LEADER+ca - CODE ACTION                  LEADER + s - REPLACE WORDS
+
+LEADER+rn - SMART RENAME                 LEADER + x - MAKE EXECUTABLE
+
+LEADER+D - SHOW DIAGNOSTIC FOR FILE      < - MOVE SELECTED TO LEFT
+
+LEADER+d - SHOW DIAGNOSTIC FOR LINE      > - MOVE SELECTED TO RIGHT
+
+[+d - JUMP TO PREVIOUS DIAGNOSTIC BUFFER   F8 - CLANG FORMAT
+
+]+d - JUMP TO NEXT DIAGNOSTIC BUFFER
+
+LEADER+rs - RESTART LSP

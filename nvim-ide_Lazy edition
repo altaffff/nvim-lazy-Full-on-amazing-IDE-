@@ -3,7 +3,7 @@ source /etc/profile
 clear
 
 echo "
-This NEOVIM is heavily inspired by ThePrimeagen. I Yanked it and made it mine !!!!!!!!!! I made a  couple of changes and made it in a script form for those who want ."
+This NEOVIM is my personal Favorite
 sleep 3  
 
  echo""

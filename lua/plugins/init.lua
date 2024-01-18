@@ -1,4 +1,4 @@
-return {
+	return {
 
 	{
 		"nvim-telescope/telescope.nvim",
@@ -24,4 +24,5 @@ return {
 	"rhysd/vim-clang-format",
 	{ "nvim-telescope/telescope-live-grep-args.nvim" },
 	"tpope/vim-commentary",
+	{ "omnisharp-roslyn", "OmniSharp/omnisharp-vim" },
 }

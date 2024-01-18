@@ -38,7 +38,7 @@ return {
 			keymap.set("n", "gt", "<cmd>Telescope lsp_type_definitions<CR>", opts) -- show lsp type definitions
 
 			opts.desc = "See available code actions"
-			keymap.set({ "n", "v" }, "<leader>ca", "<cmd>Lspsaga code_action<CR>", opts) -- see available code actions, in visual mode will apply to selection
+			keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, opts) -- see available code actions, in visual mode will apply to selection
 
 			opts.desc = "Smart rename"
 			keymap.set("n", "<leader>rn", vim.lsp.buf.rename, opts) -- smart rename
@@ -56,7 +56,7 @@ return {
 			keymap.set("n", "]d", vim.diagnostic.goto_next, opts) -- jump to next diagnostic in buffer
 
 			opts.desc = "Show documentation for what is under cursor"
-			keymap.set("n", "K", "<cmd>Lspsaga hover_doc<CR>", opts) -- show documentation for what is under cursor
+			keymap.set("n", "K", vim.lsp.buf.hover, opts) -- show documentation for what is under cursor
 
 			opts.desc = "Restart LSP"
 			keymap.set("n", "<leader>rs", ":LspRestart<CR>", opts) -- mapping to restart lsp if necessary
@@ -101,11 +101,6 @@ return {
 			on_attach = on_attach,
 		})
 
-		-- csharp
-		lspconfig.csharp_ls.setup({
-			capabilities = capabilities,
-			on_attach = on_attach,
-		})
 		-- typescriptreact, javascriptreact, css, sass, scss, less, svelte, vue
 		lspconfig.emmet_ls.setup({
 			capabilities = capabilities,
@@ -131,6 +126,16 @@ return {
 			capabilities = capabilities,
 			on_attach = on_attach,
 			filetypes = { "json", "jsonc" },
+		})
+
+		-- Csharp
+		lspconfig.omnisharp.setup({
+			enable_roslyn_analysers = true,
+			enable_import_completion = true,
+			organize_imports_on_format = true,
+			on_attach = on_attach,
+			cmd = { "/usr/bin/omnisharp", "--languageserver" },
+			filetypes = { "cs", "vb", "csproj", "sln", "slnx", "props" },
 		})
 
 		-- bash

@@ -20,7 +20,7 @@ return {
 				json = { "eslint", "fixjson" },
 				jsonc = { "eslint", "fixjson" },
 				sh = { "shellcheck", "shfmt" },
-				css = { "prettier_d" },
+				cs = { "prettier_d" },
 				c = { "clangformat", "cpplint" },
 				cpp = { "clangformat", "cpplint" },
 			},

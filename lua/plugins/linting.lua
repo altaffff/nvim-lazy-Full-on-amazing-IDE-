@@ -11,7 +11,7 @@ return {
 			typescript = { "eslint_d" },
 			svelte = { "eslint_d" },
 
-			csharp = { "csharpier", "sonarlint-language-server" },
+			csharp = { "omnisharp", "csharpier", "sonarlint-language-server" },
 			json = { "eslint", "fixjson" },
 			jsonc = { "eslint", "fixjson" },
 			sh = { "shellcheck", "shfmt" },

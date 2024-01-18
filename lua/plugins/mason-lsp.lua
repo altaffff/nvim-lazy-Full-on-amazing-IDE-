@@ -5,9 +5,8 @@ local opts = {
 		"csharp_ls",
 		"solidity",
 		"tailwindcss",
-
+		"omnisharp",
 		"lua_ls",
-
 		"jsonls",
 		"clangd",
 	},

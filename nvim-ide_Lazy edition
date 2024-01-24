@@ -27,6 +27,7 @@ sudo pacman -Sy aspnet-runtime
 sudo pacman -Sy libgdiplus
 sudo pacman -Sy  mono
 sudo pacman -Sy mono-msbuild
+sudo pacman -Sy npm
 
 
 echo "You can create your own LSP . Please read the LSP section on my github about it"

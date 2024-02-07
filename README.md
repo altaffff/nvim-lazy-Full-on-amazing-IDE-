@@ -56,3 +56,7 @@ and search for desired Lsp
 press F12 from anywhere to quickly look at keybindings.
 
 For Unity  support please refere to this GIT : https://github.com/walcht/neovim-unity?tab=readme-ov-file#configuring-unity-editor
+
+                                       OR
+
+https://github.com/Domeee/com.cloudedmountain.ide.neovim                                       

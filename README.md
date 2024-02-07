@@ -29,7 +29,8 @@ AFTER THE SCRIPT HAS DONE ITS JOB NAVIGATE TO ~/.config/nvim/lua/config/init.lua
 ![Screenshot_09-Jan_22-08-04_21352](https://github.com/altaffff/nvim-lazy-Full-on-amazing-IDE-/assets/17230253/4dcdc615-0c3b-413f-95f0-b71cf00dac4e)
 
 
-
+                                    OR
+https://github.com/Domeee/com.cloudedmountain.ide.neovim                                    
 
 
 WHAT ARE YOU GETTING OUT OF THIS BASH SCRIPT ?
